@@ -40,16 +40,15 @@
     </section>
 
     <!--Présentation CV-->
-    <section id="presentation" class="py-4">
+    <section id="presentation" class="py-4 bg-black text-info">
         <div class="container">
-            <h2 class="mb-4 text-start justify-content-center text-center">Présentations/CV :</h2>
+            <h2 class="mb-4 text-start justify-content-center text-center">Présentation/CV :</h2>
             <div class="d-flex justify-content-center">
-                <div class="card border-3 rounded shadow-sm" style="max-width: 640px;">
-                    <img src="../images/Noir et Blanc Couleur Blocs Logiciel Ingénieure CV.jpg" class="card-img-top" alt="CV Guesnon">
-                    <div class="card-body text-center">
+                <div class="card border-3 rounded shadow-sm w-100" style="max-width: 640px;">
+                    <img src="../images/Noir et Blanc Couleur Blocs Logiciel Ingénieure CV.jpg" class="img-fluid" alt="CV Guesnon">                    <div class="card-body text-center">
                         <h2 class="h5 mb-0">Télécharger mon CV :</h2>
                         <p></p>
-                        <a href="../documents/Noir et Blanc Couleur Blocs Logiciel Ingénieure CV.pdf.pdf" class="btn btn-primary mt-2" download rel="noopener">Télécharger le CV (PDF)</a>
+                        <a href="../documents/Noir et Blanc Couleur Blocs Logiciel Ingénieure CV.pdf" class="btn btn-primary mt-2" download rel="noopener">Télécharger le CV (PDF)</a>
                     </div>
                 </div>
             </div>
@@ -59,146 +58,224 @@
     <!--Projets-->
     <section id="projets" class="py-4 bg-dark text-info">
         <h2 class="mb-4 text-start justify-content-center text-center">Mes Projets :</h2>
-        <div class="container">
-        <h3 class="mb-2 mt-2">Développement web :</h3>
-            <div class="d-flex justify-content-center mt-4">
-                <div class="row">
-                    <div class="col-sm-4 mb-3 mb-sm-0">
-                        <div class="card">
+        <div class="container mt-4">
+
+            <div class="row justify-content-center mt-4">
+            <h3>Projets seul :</h3>
+
+                <!-- case 1 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#typo1">
+                        <img src="../images/kinetic.png" class="card-img-top" alt="Image">
                         <div class="card-body">
-                            <img src="" alt="oui" class="d-flex w-30">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="card">
-                        <div class="card-body">
-                            <img src="" alt="oui" class="d-flex w-30">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="card">
-                        <div class="card-body">
-                            <img src="" alt="oui" class="d-flex w-30">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
+                            <h5 class="card-title">Kinetic typography</h5>
+                            <p class="card-text">Cliquez pour voir plus de détails.</p>
                         </div>
                     </div>
                 </div>
-            </div>
-            <h3 class="mb-2 mt-2">Graphisme :</h3>
-            <div class="d-flex justify-content-center mt-4">
-                <div class="row">
-                    <div class="col-sm-4 mb-3 mb-sm-0">
-                        <div class="card">
-                        <div class="card-body">
-                            <img src="" alt="oui" class="d-flex w-30">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="card">
-                        <div class="card-body">
-                            <img src="" alt="oui" class="d-flex w-30">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="card">
-                        <div class="card-body">
-                            <img src="" alt="oui" class="d-flex w-30">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
+                <div class="modal fade" id="typo1" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content bg-dark text-info text-align-center">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Kinetic typography</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Animation des paroles d'une chanson sur After Effects.</p>
+                                <video class="w-100" controls>
+                                <source src="../images/Clement_Guesnon_kinetictypo.mp4" type="video/mp4">
+                                </video>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <h3 class="mb-2 mt-2">Audiovisuel :</h3>
-            <div class="d-flex justify-content-center mt-4">
-                <div class="row">
-                    <div class="col-sm-4 mb-3 mb-sm-0">
-                        <div class="card">
+
+                <!-- case 2 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#typo2">
+                        <img src="../images/infini fruitz.png" class="card-img-top" alt="Image">
                         <div class="card-body">
-                            <img src="" alt="oui" class="d-flex w-30">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="card">
-                        <div class="card-body">
-                            <img src="" alt="oui" class="d-flex w-30">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="card">
-                        <div class="card-body">
-                            <img src="" alt="oui" class="d-flex w-30">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
+                            <h5 class="card-title">Charte graphique d'une fausse marque</h5>
+                            <p class="card-text">Cliquez pour voir plus de détails.</p>
                         </div>
                     </div>
                 </div>
+                <div class="modal fade" id="typo2" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content bg-dark text-info text-align-center">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Charte graphique d'une fausse marque</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Création d'une fausse marque avec logos, typographies, et le choix des couleurs</p>
+                                <img src="../images/Capture d’écran 2025-12-16 233041.png" alt="charte" class="w-100">
+                                <div class="card-body text-center">
+                                    <h2 class="h5 mb-0">Télécharger la charte graphique en entier</h2>
+                                    <p></p>
+                                    <a href="../documents/Charte_graphique_guesnon_td2.pdf" class="btn btn-primary mt-2" download rel="noopener">Télécharger le PDF</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- case 3 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#typo3">
+                        <img src="" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                            <h5 class="card-title">CV vidéo en anglais</h5>
+                            <p class="card-text">Cliquez pour voir plus de détails.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="typo3" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content bg-dark text-info text-align-center">
+                            <div class="modal-header">
+                                <h5 class="modal-title">CV vidéo en anglais</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>CV vidéo en anglais</p>
+                                <video class="w-100" controls>
+                                <source src="" type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+
+            <div class="row justify-content-center mt-4">
+            <h3>Projets en groupe :</h3>
+
+                <!-- case 1 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#street">
+                        <img src="" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Création d'une marque de streetwear premium</h5>
+                            <p class="card-text">Cliquez pour voir plus de détails.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="street" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content bg-dark text-info text-align-center">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Création d'une marque de streetwear premium</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Animation des paroles d'une chanson sur After Effects.</p>
+                                <video class="w-100" controls>
+                                <source src="../images/Clement_Guesnon_kinetictypo.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- case 2 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#objet">
+                        <img src="" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Création d'un objet innovant et sa communication</h5>
+                            <p class="card-text">Cliquez pour voir plus de détails.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="objet" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content bg-dark text-info text-align-center">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Création d'un objet innovant et sa communication</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Animation des paroles d'une chanson sur After Effects.</p>
+                                <video class="w-100" controls>
+                                <source src="../images/Clement_Guesnon_kinetictypo.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- case 3 -->
+                <div class="col-md-4 mb-3">
+                    <div class="card" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#sushi">
+                        <img src="" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Création d'une application de restaurant de sushi</h5>
+                            <p class="card-text">Cliquez pour voir plus de détails.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="sushi" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content bg-dark text-info text-align-center">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Création d'une application de restaurant de sushi</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>à venir</p>
+                                <img src="" alt="" class="w-100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
     </section>
 
     <!--Contact-->
-    <section id="form" class="py-4">
-        <div class="container">
-        <h2 class="mb-4 text-start justify-content-center text-center">Pour me contacter :</h2>
-            <div class="d-flex justify-content-center">
-                <form>
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    <section id="form" class="py-4 bg-black text-info">
+        <div class="container d-flex justify-content-center">
+        <div class="card col-sm-6">
+            <div class="card-body">
+                <h2 class="mb-4 text-start justify-content-center text-center">Pour me contacter :</h2>
+                    <div class="d-flex justify-content-center">
+                        <form>
+                            <div class="mb-3">
+                                <label for="input" class="form-label">Votre Nom :</label>
+                                <input type="text" class="form-control" id="nom" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Votre adresse email :</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="input" class="form-label" id="texte">Votre message :</label>
+                                <textarea class="form-control" id="input" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
                     </div>
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
+                </div>
             </div>
-        </div>
     </section>
 
     <!--footer-->
-    <div class="d-flex justify-content-center align-items-center text-center pt-5 bg-dark">
-        <h1 class="text-light">footer</h1>
-    
-    </div>
-
+    <footer class="bg-secondary text-light pt-4">
+        <div class="container text-center">
+            <nav class="nav flex-column mb-3">
+                <a class="nav-link text-light" href="#accueil">Accueil</a>
+                <a class="nav-link text-light" href="#presentation">Présentation</a>
+                <a class="nav-link text-light" href="#projets">Projets</a>
+                <a class="nav-link text-light" href="#form">Contact</a>
+            </nav>
+            <hr class="border-light">
+            <p class="mb-0">&copy; 2025 Clément Guesnon — Tous droits réservés</p>
+        </div>
+    </footer>
 
 </body>
 
