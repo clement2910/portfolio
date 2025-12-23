@@ -5,3 +5,42 @@
 .card {
   height: 100%;         
 }
+
+.navbar-nav .nav-link {
+    position: relative;
+    padding: 0 20px;
+}
+
+.navbar-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ffffff; 
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 100%; 
+}
+
+.navbar {
+    padding: 25px 0 !important;
+}
+
+.navbar-nav .nav-link {
+    padding: 0 25px;
+    line-height: 30px;
+}
+
+.hover-zoom {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-zoom:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}

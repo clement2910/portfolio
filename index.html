@@ -20,15 +20,16 @@
      
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item">
+                <li class="nav-item mx-3">
                 <a class="nav-link text-light"href="#accueil">Accueil</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-3">
                 <a class="nav-link text-light" href="#presentation">Présentation</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mx-3">
                 <a class="nav-link text-light" href="#projets">Projets</a>
-                <li class="nav-item">
+                </li>
+                <li class="nav-item mx-3">
                 <a class="nav-link text-light" href="#form">Contact</a>
                 </li>
             </ul>
@@ -37,19 +38,30 @@
     </nav>
     
     <!--Accueil-->
-    <section id="accueil" class="d-flex justify-content-center align-items-center text-center min-vh-100 pt-5 bg-dark text-info">
+    <section id="accueil" class="d-flex justify-content-center align-items-center text-center min-vh-100 bg-dark text-info">
         <div>
-            <h1 class="display-4">Clément Guesnon</h1>
-            <p class="lead">Étudiant en But MMI (métiers du multimédia et de l'internet)</p>
+            <h1 class="display-4 fw-bold mb-3">Clément Guesnon</h1>
+            <div class="card w-50 mx-auto bg-secondary text-light mt-4 border-info">
+                <div class="card-body">
+                    <p class="lead fw-semibold">
+                        Étudiant en BUT MMI (métiers du multimédia et de l'internet),
+                        spécialité développement web et dispositifs interactifs,
+                        à l'université Gustave Eiffel IUT de Meaux.
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
+
+    <!-- Ligne de séparation -->
+    <hr class="border-info container text-center" style="border-width: 5px;">
 
     <!--Présentation CV-->
     <section id="presentation" class="py-4 bg-dark text-info mb-5 mt-5">
         <div class="container">
-            <h2 class="mb-4 text-start justify-content-center text-center text-decoration-underline">Présentation/CV :</h2>
+            <h2 class="mb-5 text-start justify-content-center text-center fw-semibold">Présentation/CV :</h2>
             <div class="d-flex justify-content-center">
-                <div class="card border-3 rounded shadow-sm w-100" style="max-width: 640px;">
+                <div class="card border-3 rounded shadow-sm w-100 mt-2" style="max-width: 640px;">
                     <img src="images/Noir et Blanc Couleur Blocs Logiciel Ingénieure CV.jpg" class="img-fluid" alt="CV Guesnon">                    <div class="card-body text-center">
                         <h2 class="h5 mb-0">Télécharger mon CV :</h2>
                         <p></p>
@@ -60,9 +72,12 @@
         </div>
     </section>
 
+    <!-- Ligne de séparation -->
+    <hr class="border-info container text-center" style="border-width: 5px;">
+
     <!--Projets-->
     <section id="projets" class="py-4 bg-dark text-info mb-5 mt-5">
-        <h2 class="mb-5 text-start justify-content-center text-center text-decoration-underline">Mes Projets :</h2>
+        <h2 class="mb-5 text-start justify-content-center text-center fw-semibold">Mes Projets :</h2>
         <div class="container mt-4">
 
             <div class="row justify-content-center mt-4">
@@ -70,7 +85,7 @@
 
                 <!-- case 1 -->
                 <div class="col-md-3 mb-5">
-                    <div class="card bg-secondary text-light" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#typo1">
+                    <div class="card bg-secondary text-light card hover-zoom border-info" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#typo1">
                         <img src="images/kinetic.png" class="card-img-top" alt="Image">
                         <div class="card-body">
                             <h5 class="card-title">Kinetic typography</h5>
@@ -106,7 +121,7 @@
 
                 <!-- case 2 -->
                 <div class="col-md-3 mb-5">
-                    <div class="card bg-secondary text-light" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#typo2">
+                    <div class="card bg-secondary text-light card hover-zoom border-info" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#typo2">
                         <img src="images/infini fruitz.png" class="card-img-top" alt="Image">
                         <div class="card-body">
                             <h5 class="card-title">Charte graphique</h5>
@@ -142,8 +157,8 @@
 
                 <!-- case 3 -->
                 <div class="col-md-3 mb-5">
-                    <div class="card bg-secondary text-light" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#typo3">
-                        <img src="images/cv_video.png" class="card-img-top" alt="Image">
+                    <div class="card bg-secondary text-light card hover-zoom border-info" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#typo3">
+                        <img src="../Portfolio/images/cvvideo.png" class="card-img-top" alt="cv">
                         <div class="card-body">
                             <h5 class="card-title">CV vidéo en anglais</h5>
                             <p class="card-text">Cliquez pour voir plus de détails.</p>
@@ -181,7 +196,7 @@
 
                 <!-- case 1 -->
                 <div class="col-md-3 mb-5">
-                    <div class="card bg-secondary text-light" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#street">
+                    <div class="card bg-secondary text-light card hover-zoom border-info" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#street">
                         <img src="images/tuga.png" class="card-img-top" alt="Image">
                         <div class="card-body">
                             <h5 class="card-title">Création d'une marque de streetwear premium</h5>
@@ -206,16 +221,20 @@
                                     <a href="https://www.figma.com/design/9h0wYToThAkLacXjzbkA4N/Tuga?node-id=0-1&t=1NDzoinwZWMjVzQa-1" class="btn btn-primary mb-3">Accéder aux maquettes</a>
                                 </div>
                                 <h4>Difficultés rencontrées :</h4>
-                                <p>Dans ce projet, nous devions imaginer une marque de a à z, c'est à dire de détailler tous ce qui faut faire pour la création de celle-ci</p>
+                                <p>Dans ce projet, nous devions imaginer une marque de a à z, c'est à dire de détailler tous ce qui faut faire pour la création de celle-ci.
+                                    Nous de vions choisir un statut juridique d'entreprise adapté pour notre marque (ici une SAS : société par actions simplifiées), créer une histoire de la marque (comment elle a été crée, pourquoi le thème du portugal...),
+                                    puis nous devions effectuer le business model de cette marque de maniere différente à celui du business model canva (ne pas faire un tableau mais l'expliquer).
+                                    Par la suite nous devions effectuer la partie design avec les tech packs, les maquettes et wireframes avec les moodboards pour les inspirations de sites, l'arborescence ainsi que le prototypage du site sur figma qui était la principale difficulté de cette partie.
+                                </p>
                                 <h4>Ce que j'ai appris :</h4>
-                                <p></p>
+                                <p>Dans ce projet, j'ai appris à connaître des parties plus complexes dans le marketing d'une marque (qu'on avait déjà appris l'année dernière) comme les statuts d'entreprises et le business model Puis cela m'a aussi appris à faire des maquettes plus détaillées et réalistes.</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- case 2 -->
-                <div class="col-md-3 mb-5">
+                <!-- <div class="col-md-3 mb-5">
                     <div class="card bg-secondary text-light" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#objet">
                         <img src="images/oneiros.png" class="card-img-top" alt="Image">
                         <div class="card-body">
@@ -248,11 +267,11 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- case 3 -->
                 <div class="col-md-3 mb-5">
-                    <div class="card bg-secondary text-light" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#sushi">
+                    <div class="card bg-secondary text-light card hover-zoom border-info" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#sushi">
                         <img src="images/logo.svg" class="card-img-top" alt="Image">
                         <div class="card-body">
                             <h5 class="card-title">Création d'une application de restaurant de sushi</h5>
@@ -268,6 +287,11 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                             </div>
                             <div class="modal-body">
+                                <h4>Contexte :</h4>
+                                <p>ce projet consiste à créer une application de restaurant de sushi à l'aide du framework angular.</p>
+                                <h4>Difficultés rencontrées :</h4>
+                                <p>à venir</p>
+                                <h4>Ce que j'ai appris :</h4>
                                 <p>à venir</p>
                                 <img src="" alt="" class="w-100">
                             </div>
@@ -280,28 +304,37 @@
         </div>
     </section>
 
+    <!-- Ligne de séparation -->
+    <hr class="border-info container text-center" style="border-width: 5px;">
+
+
     <!--Contact-->
     <section id="form" class="py-4 bg-dark text-info mb-5 mt-5">
         <div class="container">
             <div class="row justify-content-center">
-                <h2 class="mb-4 text-center text-decoration-underline">Pour me contacter :</h2>
-                <div class="card col-sm-6">
+                <h2 class="mb-5 text-center fw-semibold">Pour me contacter :</h2>
+                <div class="card col-sm-6 mt-2">
                     <div class="card-body">
                         <div class="justify-content-center">
-                            <form>
+                            <form action="https://formspree.io/f/mrezrydz" method="POST">
+
                                 <div class="mb-3">
-                                    <label for="input" class="form-label">Votre Nom :</label>
-                                    <input type="text" class="form-control" id="nom" aria-describedby="emailHelp">
+                                    <label for="nom" class="form-label">Votre nom :</label>
+                                    <input type="text" name="nom" id="nom" class="form-control" required>
                                 </div>
+
                                 <div class="mb-3">
-                                    <label for="exampleInputEmail1" class="form-label">Votre adresse email :</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <label for="email" class="form-label">Votre adresse email :</label>
+                                    <input type="email" name="email" id="email" class="form-control" required>
                                 </div>
+
                                 <div class="mb-3">
-                                    <label for="input" class="form-label" id="texte">Votre message :</label>
-                                    <textarea class="form-control" id="input" rows="3"></textarea>
+                                    <label for="message" class="form-label">Votre message :</label>
+                                    <textarea name="message" id="message" class="form-control" rows="3" required></textarea>
                                 </div>
-                                <button type="submit" class="btn btn-primary">Submit</button>
+
+                                <button type="submit" class="btn btn-primary">Envoyer</button>
+
                             </form>
                         </div>
                     </div>
